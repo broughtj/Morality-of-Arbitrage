@@ -1,0 +1,13 @@
+---
+title: "The Morality of Arbitrage"
+author: "Tyler J. Brough"
+date: "September 16, 2016"
+output: pdf_document
+---
+
+# 
+
+> But nobody can be a great economist who is only an economist - and I am even tempted to add that the economist who
+> is only an economist is likely to become a nuisance if not a positive danger.
+
+-- Friedrich von Hayek
