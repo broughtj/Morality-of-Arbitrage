@@ -1,5 +1,5 @@
 ---
-title: "The Morality of Arbitrage"
+title: "The Morality of Arbitrage - Some Half-Baked Ideas"
 author: "Tyler J. Brough"
 date: "September 16, 2016"
 output: ioslides_presentation
