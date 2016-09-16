@@ -2,12 +2,21 @@
 title: "The Morality of Arbitrage"
 author: "Tyler J. Brough"
 date: "September 16, 2016"
-output: pdf_document
+output: ioslides_presentation
 ---
 
 # 
 
-> But nobody can be a great economist who is only an economist - and I am even tempted to add that the economist who
-> is only an economist is likely to become a nuisance if not a positive danger.
+> *But nobody can be a great economist who is only an economist - and I am even tempted to add that the economist who is only an economist is likely to become a nuisance if not a positive danger*.
 
 -- Friedrich von Hayek
+
+## Introduction 
+
+>- I have been very influenced by Coases's 1975 AER article *The Market for Goods and the Market for Ideas*.
+>- I have also been reading articles lately by Robert Nau and his coauthors. In particular the paper by Nau & McCardle (1991) *Aribtrage, Rationality, and Equilibrium*. 
+>- This project is an attempt to do something like what Coase had in mind, using the the approach of Nau, but applied to the morality of markets and capitalism. 
+
+## Nau's Arbitrage Choice Theory
+
+

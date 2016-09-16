@@ -28,11 +28,12 @@ processing file: morality-slides.Rmd
 
 output file: morality-slides.knit.md
 
-/usr/bin/pandoc +RTS -K512m -RTS morality-slides.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output morality-slides.pdf --template /home/brough/R/x86_64-pc-linux-gnu-library/3.2/rmarkdown/rmd/latex/default-1.15.2.tex --highlight-style tango --latex-engine pdflatex --variable graphics=yes --variable 'geometry:margin=1in' 
+/usr/bin/pandoc +RTS -K512m -RTS morality-slides.utf8.md --to html --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output morality-slides.html --smart --email-obfuscation none --self-contained --variable transition=0.4 --template /home/brough/R/x86_64-pc-linux-gnu-library/3.2/rmarkdown/rmd/ioslides/default.html --mathjax --variable 'mathjax-url:https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --variable ioslides-url=/home/brough/R/x86_64-pc-linux-gnu-library/3.2/rmarkdown/rmd/ioslides/ioslides-13.5.1 
+/usr/bin/pandoc +RTS -K512m -RTS morality-slides.utf8.md --to ioslides_presentation.lua --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output /tmp/RtmpUTlVNG/ioslides-output728567198f8.html --slide-level 2 
 
-Output created: morality-slides.pdf
+Output created: morality-slides.html
 > 
 > 
 > proc.time()
    user  system elapsed 
-  1.156   0.100   1.264 
+  0.524   0.296   0.545 
