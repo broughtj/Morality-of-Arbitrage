@@ -1,0 +1,72 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: ./svm-latex-ms.tex
+title: "The Morality of Arbitrage"
+author:
+- name: Tyler J. Brough
+  affiliation: Utah State University
+abstract: "In this paper, I argue that one cannot rationally believe that financial arbitrage is an inherently immoral pursuit, while simultaneously believing that the pursuit of academic knowledge is an inherently moral pursuit. I argue that these two seemingly separate activities are really one and the same. Further those that do hold such contradictory beliefs are behaving incoherently and have a Dutch book made against them."
+keywords: "arbitrage, Dutch books, morality"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
+# spacing: double
+bibliography: ./master.bib
+biblio-style: apsr
+---
+
+# Introduction
+
+The pursuit of knowledge through academic scholarship rests on a commonly held moral foundation. The pursuit of truth, which is widely believed to be the goal of scholarship, is thought to be an inherently moral activity. At the same time, it is an increasingly widely held belief that financial market arbitrage, the kind pursued by Wall Street traders, is an inherently immoral activity. Take for example, the case of the quantitative proprietary trading firm which serves no clients and which invests only the capital of its principals. Such a firm makes its profits, often astonishingly large profits, by buying and selling financial securities and profiting from speculation. A common line is of reasoning is that such a firm is predatory, parasitic, and even rapacious and as such cannot possibly be acting morally. 
+
+In this paper, I argue that one cannot simultaneously hold the above two positions without behaving incoherently. The process of scholarship and financial trading are both examples of finding and exploiting Dutch books. Dutch books are simply arbitrage by another name. Thus scholarship can be seen, indeed is most properly seen, as a form of intellectual arbitrage. Just as traders find mispricings in financial securities and exploit them for financial profit, scholars find misunderstandings - mispricings by another name - and exploit them to establish their scholarly reputation. 
+
+@Coase1974, in what he referred to as the economics of the First Amendment, makes a similar argument by comparing the "market for ideas" and the more mundane "market for goods." In his analysis he points out a broad inconsistency in the way these two different markets are viewed: that the market for goods is inefficient and requires government regulation to tame it, but that it would even be immoral for government to seek to regulate the market for ideas. Coase points out that this view is fundamentally inconsistent:
+
+> _Consider the question of consumer ignorance which is commonly thought to be a justification for government intervention. It is hard to believe that the general public is in a better position to evaluate competing views on economic and social policy than to choose between different kinds of food._
+
+Coase states further:
+
+> _Because of the view that a free market in ideas is necessary to the maintenance of democratic institutions and, I believe, for other reasons also, intellectuals have shown a tendency to exalt the market for ideas and to depreciate the market for goods. Such an attitude seems to me unjustified._
+
+I argue, that not only is such a view unjustified but it is irredeemably incoherent and irrational. In pointing out the tendency of intellectuals to favor the market for ideas over the market for goods, Coase was echoing @Hayek1945, who wrote of "the relative importance of the different kinds of knowledge" and the fact that "one kind of knowledge, namely, scientific knowledge, occupies now so prominent a place in public imagination that we tend to forget that it is not the only kind that is relevant." Indeed, by taking advantage of relative mispricings among commodities the financial trader benefits his fellow men by allocating resources more efficiently. But this is hardly viewed as a noble act, not nearly so noble as scientific discovery or academic expression. Hayek saw keenly the situation:
+
+> _It is a curious fact that this sort of knowledge should today be generally regarded with a kind of contempt, and that someone who by such knowledge gains an advantage over somebody better equipped with theoretical or technical knowledge is thought to have acted almost disreputably. To gain advantage from better knowledge of facilities of communication or transport is sometimes regarded as almost dishonest, although it is quite as important that society make use of the best opportunities in this respect as in using the latest scientific discoveries._
+
+The lesson regarding the relative importance of different kinds of knowledge that Hayek teaches is a very deep one. Indeed, when this insight is fully appreciated one begins to see that the use of mundane kinds of knowledge - Hayek's "knowledge of time and place" is essential. It is not exaggeration to state that if the only knowledge that society could usefully exploit was that from universities, the press, literature and science we would all starve to death in very short order. The financial arbitrageur is a perfect example of Hayek's "man on the spot" and his actions benefit his fellows greatly. Still, when one thinks of the abstract concept of the pursuit of knowledge, images of the scientist in the lab or of the poet in the library come more easily to mind than the trader scanning prices on his bank of monitors. But for Hayek:
+
+> _the arbitrageur who gains from local differences of commodity prices, [is] performing [an] eminently useful function based on special knowledge of circumstances of the fleeting moment not known to others._
+
+The actions of the arbitrageur are indeed eminently useful! Consider the commodities that we require in our daily lives such as sugar, coffee, wheat, milk, and oil that come to us more efficiently and at lower cost than would otherwise be the case if not for the actions of commodity traders. In addition, because of financial traders retirement is secured more soundly through investment. And risks are insured against, eliminated and transferred through financial markets that we would otherwise have to bear. 
+
+Hayek compared the price system to "a kind of machinery for registering change" and as a "system of telecommunications." Similarly, @Scarf1990 has made an analogy between the market institution and a massively distributed analog computer that computes values in the form of prices. Following this line of reasoning, all market processes are knowledge processes. Therefore there is not sharp distinction between the "market for ideas" and the "market for goods", as Coase referred to them. They are simply both markets and differ only in their relative kinds of knowledge. @Sowell1996 has made this point quite succinctly:
+
+> _While market economies are often thought of as money economies, they are still more so knowledge economies... Economic transactions are purchases and sales of knowledge._
+
+> _After all, the cavemen had the same natural resources at their disposal as we have today... We are all in the business of buying and selling knowledge from one another, because we are each so profoundly ignorant of what it takes to complete the whole process of which we are part._
+
+The link between the market for ideas and the market for goods is further strengthened by considering the work of the decision theorist Robert Nau. For example, @NauMcCardle1991 state that the principle of no-arbitrage, which is fundamental in finance theory, is the common foundation of decision theory, game theory and competitive market theory. @Nau1999 refers to this as Arbitrage Choice Theory, following the Bayesian Dutch book arguments of @deFinetti1937. A Dutch book is a situation in which an individual holds incoherent beliefs (beliefs inconsistent with the basic axioms of probability), and if forced to bet on them exposes themself to a guaranteed loss. When market transactions are seen as knowledge transactions, it becomes clear that a Dutch book is equivalent to arbitrage - the good old fashioned kind often derided from the world of finance. This leads to the Dutch book theorem, which the Cambridge Dictionary of Philosophy (1999) defines as:
+
+> The proposition that anyone who (a) counts a bet on a proposition p as fair if the odds correspond to his degree of belief that p is true and who (b) is willing to make any combination of bets he would regard individually as fair will be vulnerable to a Dutch book provided his degrees of belief do not conform tot he axioms of the probability calculus. Thus, anyone of whom (a) and (b) are true and whos degree of belief in a disjuntion of two incompatible propositions is not equal to the sum of his degrees of belief in the two propositions taken individually would be vulnerable to a Dutch book.
+
+When a trader makes a profit by simultaneously buying and selling financial securities to exploit relative mispricings, this arbitrage is simply the exploitation of a Dutch book expressed as incoherent market prices. Likewise the intellectual pursuit of knowledge, what Coase called the "market for ideas" can be seen as the pursuit of arbitrage, or Dutch books, in the existing body of academic knowledge. Consider a young scholar who discovers an error in the received theory of their specific academic domain, and who makes a name for themself by publishing an article correcting the error in a reputable academic journal. This can now be easily understood to be the exploitation of a Dutch book, or intellectual arbitrage. 
+
+My argument can now be stated simply as follows. One cannot simultaneously believe: (a) that the pursuit of academic or scientific knowledge is inherently moral, and (b) that the pursuit of capitalist profits through financial arbitrage is inherently immoral.
+ 
+There is thus a logical defeator for the belief that arbitrage is immoral. Financial arbitrage rests on the same moral foundation as scholarship - the pursuit of knowledge - albeit in a more plain and mundate way. 
+
+
+<!--
+# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\noindent
+-->
