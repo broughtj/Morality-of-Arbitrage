@@ -1,0 +1,205 @@
+\documentclass[11pt,]{article}
+\usepackage[left=1in,top=1in,right=1in,bottom=1in]{geometry}
+\newcommand*{\authorfont}{\fontfamily{phv}\selectfont}
+\usepackage[]{mathpazo}
+
+
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+
+
+
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+
+\renewenvironment{abstract}
+ {{%
+    \setlength{\leftmargin}{0mm}
+    \setlength{\rightmargin}{\leftmargin}%
+  }%
+  \relax}
+ {\endlist}
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+%  \null
+%  \vskip 2em%
+%  \begin{center}%
+  \let \footnote \thanks
+    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par}%
+}
+%\fi
+\makeatother
+
+
+
+
+\setcounter{secnumdepth}{0}
+
+
+
+\title{The Morality of Arbitrage  }
+
+
+
+\author{\Large Tyler J. Brough\vspace{0.05in} \newline\normalsize\emph{Utah State University}  }
+
+
+\date{}
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\normalsize\bfseries}
+\titleformat*{\subsection}{\normalsize\itshape}
+\titleformat*{\subsubsection}{\normalsize\itshape}
+\titleformat*{\paragraph}{\normalsize\itshape}
+\titleformat*{\subparagraph}{\normalsize\itshape}
+
+
+\usepackage{natbib}
+\bibliographystyle{apsr}
+
+
+
+\newtheorem{hypothesis}{Hypothesis}
+\usepackage{setspace}
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+}
+\@ifpackageloaded{color}{
+    \PassOptionsToPackage{usenames,dvipsnames}{color}
+}{%
+    \usepackage[usenames,dvipsnames]{color}
+}
+\makeatother
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Tyler J. Brough (Utah State University)},
+             pdfkeywords = {arbitrage, Dutch books, morality},  
+            pdftitle={The Morality of Arbitrage},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+
+
+\begin{document}
+	
+% \pagenumbering{arabic}% resets `page` counter to 1 
+%
+% \maketitle
+
+{% \usefont{T1}{pnc}{m}{n}
+\setlength{\parindent}{0pt}
+\thispagestyle{plain}
+{\fontsize{18}{20}\selectfont\raggedright 
+\maketitle  % title \par  
+
+}
+
+{
+   \vskip 13.5pt\relax \normalsize\fontsize{11}{12} 
+\textbf{\authorfont Tyler J. Brough} \hskip 15pt \emph{\small Utah State University}   
+
+}
+
+}
+
+
+
+
+
+
+
+\begin{abstract}
+
+    \hbox{\vrule height .2pt width 39.14pc}
+
+    \vskip 8.5pt % \small 
+
+\noindent In this paper, I argue that one cannot rationally believe that financial
+arbitrage is an inherently immoral pursuit, while simultaneously
+believing that the pursuit of academic knowledge is an inherently moral
+pursuit. I argue that these two seemingly separate activities are really
+one and the same. Further those that do hold such contradictory beliefs
+are behaving incoherently and have a Dutch book made against them.
+
+
+\vskip 8.5pt \noindent \emph{Keywords}: arbitrage, Dutch books, morality \par
+
+    \hbox{\vrule height .2pt width 39.14pc}
+
+
+
+\end{abstract}
+
+
+\vskip 6.5pt
+
+\noindent  \section{Introduction}\label{introduction}
+
+\begin{quote}
+{[}T{]}he shipper who earns his living from using otherwise empty or
+half-filled journeys of tramp-steamers, or the estate agent whose whole
+knowledge is almost exclusively one of temporary opportunities, or the
+\emph{arbitrageur} who gains from local differences of commodity prices,
+are all performing eminently useful functions based on special knowledge
+of circumstances of the fleeting moment not known to others. -- F.A.
+Hayek
+\end{quote}
+
+In this essay I follow the lead of \citet{Coase1974}, and examine the
+very common differential treatment of the market for goods and the
+market for ideas.
+
+The plan of this paper is as follows: section 2 introduces Coases's
+original argument, and his conclusion that their different treatment is
+incongruous; section 3 discusses the view in \citet{Hayek1945} that the
+essential nature of the economic problem is one of the utilization of
+knowledge. For Hayek, the economic process is an information process and
+markets can be seen, using the modern parlance, as information systems.
+There is thus no justification for the differential treatment of goods
+and ideas; section 4 introduces the concept of subjective probability
+following \citet{deFinetti1937}, as well as the Arbitrage Choice Theory
+outlined in \citet{Nau1999}; section 5 explains, as essential
+background, the Dutch Book Theorem; section 6 gives a few chosen
+examples of scholarly debates framed as Dutch Book arguments; section 6
+frames Coases's original argument as a Dutch Book argument; section 7
+concludes.
+
+\section{The Market for Goods and the Market for
+Ideas}\label{the-market-for-goods-and-the-market-for-ideas}
+
+\section{The Use of Knowledge in
+Society}\label{the-use-of-knowledge-in-society}
+
+\section{Arbitrage Choice Theory}\label{arbitrage-choice-theory}
+
+\section{The Dutch Book Theorem
+Explained}\label{the-dutch-book-theorem-explained}
+
+\subsection{Examples of Dutch Book
+Arguments}\label{examples-of-dutch-book-arguments}
+
+\section{Coase's Dutch Book Argument}\label{coases-dutch-book-argument}
+
+\section{Conclusion}\label{conclusion}
+
+\newpage
+\singlespacing 
+\bibliography{master.bib}
+
+\end{document}

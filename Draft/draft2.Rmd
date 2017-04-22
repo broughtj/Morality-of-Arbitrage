@@ -1,0 +1,68 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: ./svm-latex-ms.tex
+title: "The Morality of Arbitrage"
+author:
+- name: Tyler J. Brough
+  affiliation: Utah State University
+abstract: "In this paper, I argue that one cannot rationally believe that financial arbitrage is an inherently immoral pursuit, while simultaneously believing that the pursuit of academic knowledge is an inherently moral pursuit. I argue that these two seemingly separate activities are really one and the same. Further those that do hold such contradictory beliefs are behaving incoherently and have a Dutch book made against them."
+keywords: "arbitrage, Dutch books, morality"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
+# spacing: double
+bibliography: ./master.bib
+biblio-style: apsr
+---
+
+# Introduction
+
+> [T]he shipper who earns his living from using otherwise empty or half-filled journeys of tramp-steamers, or the estate
+> agent whose whole knowledge is almost exclusively one of temporary opportunities, or the *arbitrageur* who gains from
+> local differences of commodity prices, are all performing eminently useful functions based on special knowledge of
+> circumstances of the fleeting moment not known to others.
+	-- F.A. Hayek
+
+In this essay I follow the lead of @Coase1974, and examine the very common differential treatment of the market for goods and the market for ideas. 
+
+The plan of this paper is as follows: section 2 introduces Coases's original argument, and his conclusion that
+their different treatment is incongruous; section 3 discusses the view in @Hayek1945 that the essential
+nature of the economic problem is one of the utilization of knowledge. For Hayek, the economic process is an
+information process and markets can be seen, using the modern parlance, as information systems. There is thus
+no justification for the differential treatment of goods and ideas; section 4 introduces the concept of
+subjective probability following @deFinetti1937, as well as the Arbitrage Choice Theory outlined in @Nau1999;
+section 5 explains, as essential background, the Dutch Book Theorem; section 6 gives a few chosen examples of
+scholarly debates framed as Dutch Book arguments; section 6 frames Coases's original argument as a Dutch Book
+argument; section 7 concludes. 
+
+# The Market for Goods and the Market for Ideas
+
+
+# The Use of Knowledge in Society
+
+# Arbitrage Choice Theory
+
+# The Dutch Book Theorem Explained
+
+## Examples of Dutch Book Arguments
+
+# Coase's Dutch Book Argument
+
+
+# Conclusion 
+
+
+<!--
+# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\noindent
+-->
