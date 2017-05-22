@@ -50,11 +50,13 @@ argument; section 7 concludes.
 
 # The Dutch Book Theorem Explained
 
-## Examples of Dutch Book Arguments
-
 The dictionary definition of a Dutch book is the following:
 
-"A principle for dynamic decision-making situations that leads to a sequence of bets finishing in an inescapable loss, as in the case of a bookmaker always gaining from gambling on the outcome of horse races."[^1].
+> "A principle for dynamic decision-making situations that leads to a sequence of bets finishing in an inescapable loss, as in the case of a bookmaker always gaining from gambling on the outcome of horse races."[^1].
+
+## Examples of Dutch Book Arguments
+
+
 
 # Coase's Dutch Book Argument
 
