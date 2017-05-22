@@ -52,6 +52,10 @@ argument; section 7 concludes.
 
 ## Examples of Dutch Book Arguments
 
+The dictionary definition of a Dutch book is the following:
+
+"A principle for dynamic decision-making situations that leads to a sequence of bets finishing in an inescapable loss, as in the case of a bookmaker always gaining from gambling on the outcome of horse races."[^1].
+
 # Coase's Dutch Book Argument
 
 
@@ -66,3 +70,5 @@ argument; section 7 concludes.
 \vspace*{-0.2in}
 \noindent
 -->
+
+[^1]: See the Routledge Dictionary of Economics entry on "Dutch books." 
