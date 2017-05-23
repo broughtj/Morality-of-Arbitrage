@@ -54,6 +54,12 @@ The dictionary definition of a Dutch book is the following:
 
 > "A principle for dynamic decision-making situations that leads to a sequence of bets finishing in an inescapable loss, as in the case of a bookmaker always gaining from gambling on the outcome of horse races."[^1].
 
+In the nomenclature of finance a Dutch book is an arbitrage and the person making a Dutch book against an opponent is called an arbitrageur. For de Finetti the bookmaker whose gain is certain in a given bet is no different than the trader who earns a guaranteed profit by buying low and selling high when an asset is mispriced. 
+
+For de Finetti probabilities are prices. In modern finance theory prices are probabilities. In the end it is an equivalence. 
+
+Once seen through the lens of subjective probability, it becomes clear that what applies to mispriced assets also applies to misplaced probabilities. They are both examples of incoherent beliefs. 
+
 ## Examples of Dutch Book Arguments
 
 
