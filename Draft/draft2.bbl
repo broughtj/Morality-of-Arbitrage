@@ -1,15 +1,36 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{Arrow}{1964}{Arrow1964}
+Arrow, Kenneth~J. 1964.
+\newblock ``The Role of Securities in the Optimal Allocation of Risk-Bearing.''
+  {\em The Review of Economic Studies} 31(2):91--96.
+
 \harvarditem{Coase}{1974}{Coase1974}
 Coase, Ronald~H. 1974.
 \newblock ``The Market for Goods and the Market for Ideas.'' {\em The American
   Economic Review} 64(2):384--391.
+
+\harvarditem[Copeland, Weston \harvardand\ Shastri]{Copeland, Weston
+  \harvardand\ Shastri}{2005}{CopelandWestonShastri}
+Copeland, Thomas, J.~Fred Weston \harvardand\ Kuldeep Shastri. 2005.
+\newblock {\em Financial Theory and Corporate Policy Fourth Edition}.
+\newblock Pearson.
 
 \harvarditem{de~Finetti}{1937}{deFinetti1937}
 de~Finetti, Bruno. 1937.
 \newblock Foresight: Its Logical Laws, Its Subjective Sources.  In {\em Studies
   in Subjective Probability}.
 \newblock Robert Krieger pp.~53--118.
+
+\harvarditem{Debreu}{1959}{Debreu1959}
+Debreu, Gerard. 1959.
+\newblock {\em The Theory of Value}.
+\newblock Wiley.
+
+\harvarditem{{\em Dutch Book Theorem}}{1999}{CambDictPhil}
+{\em Dutch Book Theorem}. 1999.
+\newblock  In {\em The Cambridge Dictionary of Philosophy}.
+\newblock Cambridge University Press.
 
 \harvarditem{Grossman}{1989}{Grossman1989}
 Grossman, Sanford. 1989.
@@ -41,6 +62,11 @@ Nau, Robert. 1999.
 \newblock Arbitrage, Incomplete Models, and Other People's Brains.  In {\em
   Beliefs, Interactions, and Preferences in Decision Making}.
 \newblock Kluwer Academic Publishers.
+
+\harvarditem{Nau}{2001}{Nau2001}
+Nau, Robert. 2001.
+\newblock ``De Finetti Was Right: Probability Does Not Exist.'' {\em Theory and
+  Decision} 51:89--124.
 
 \harvarditem{Nau \harvardand\ McCardle}{1991}{NauMcCardle1991}
 Nau, Robert \harvardand\ Kevin McCardle. 1991.

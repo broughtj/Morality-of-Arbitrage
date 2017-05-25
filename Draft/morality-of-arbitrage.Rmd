@@ -1,24 +1,31 @@
 ---
-output: 
-  pdf_document:
-    citation_package: natbib
-    keep_tex: true
-    fig_caption: true
-    latex_engine: pdflatex
-    template: ./svm-latex-ms.tex
 title: "The Morality of Arbitrage"
 author:
-- name: Tyler J. Brough
-  affiliation: Utah State University
-abstract: "In this paper, I argue that one cannot rationally believe that financial arbitrage is an inherently immoral pursuit, while simultaneously believing that the pursuit of academic knowledge is an inherently moral pursuit. I argue that these two seemingly separate activities are really one and the same. Further those that do hold such contradictory beliefs are behaving incoherently and have a Dutch book made against them."
-keywords: "arbitrage, Dutch books, morality"
-date: "`r format(Sys.time(), '%B %d, %Y')`"
-geometry: margin=1in
+- affiliation: Utah State University
+  name: Tyler J. Brough
+date: "May 25, 2017"
+output:
+  pdf_document:
+    citation_package: natbib
+    fig_caption: yes
+    keep_tex: yes
+    latex_engine: pdflatex
+    template: ./svm-latex-ms.tex
+  html_document: default
+  word_document: default
+biblio-style: apsr
 fontfamily: mathpazo
 fontsize: 11pt
-spacing: double
+geometry: margin=1in
+keywords: arbitrage, Dutch books, morality
 bibliography: ./master.bib
-biblio-style: apsr
+spacing: double
+abstract: In this paper, I argue that one cannot rationally believe that financial
+  arbitrage is an inherently immoral pursuit, while simultaneously believing that
+  the pursuit of academic knowledge is an inherently moral pursuit. I argue that these
+  two seemingly separate activities are really one and the same. Further those that
+  do hold such contradictory beliefs are behaving incoherently and have a Dutch book
+  made against them.
 ---
 
 > [T]he shipper who earns his living from using otherwise empty or half-filled journeys of tramp-steamers, or the estate
@@ -88,7 +95,7 @@ When a trader makes a profit by simultaneously buying and selling financial secu
 ## The Dutch Book Theorem Explained
 
 
-For de Finetti probability represents the subjective beliefs of the agent. As @Nau2001 explains: "probability does not exist *objectively*, independently of the human mind. [P]robability ... is a rate at which an individual is willing to *bet on* the occurence of an event. Betting rates are the primitive measurements that reveal *your* probabilities or *someone else's* probabilities, which are the only probabilities that really exist." de Finettie tool a very operational view of eliciting probabilities. In his theory, "bets are for money, so your probability of an event is effectively the *price* that you are willing to pay for a lottery ticket that yields $1$ unit of money if the event occurs and nothing otherwise." The reader trained in economics or finance will notice the connection to the state-price theory of decision making under uncertainty of @Arrow1964 and @Debreu1959.[^y] Coherence in de Finetti's definition of probability is the counterpart of the modern theory of no-arbitrage in finance.[^5]  
+For de Finetti probability represents the subjective beliefs of the agent. As @Nau2001 explains: "probability does not exist *objectively*, independently of the human mind. [P]robability ... is a rate at which an individual is willing to *bet on* the occurence of an event. Betting rates are the primitive measurements that reveal *your* probabilities or *someone else's* probabilities, which are the only probabilities that really exist." de Finetti took a very operational view of eliciting probabilities. In his theory, "bets are for money, so your probability of an event is effectively the *price* that you are willing to pay for a lottery ticket that yields $1$ unit of money if the event occurs and nothing otherwise." The reader trained in economics or finance will notice the connection to the state-price theory of decision making under uncertainty of @Arrow1964 and @Debreu1959.[^y] Coherence in de Finetti's definition of probability is the counterpart of the modern theory of no-arbitrage in finance.[^5]  
 
 The axioms of probability which characterize any valid theory of probability arise logically from the
 condition that subjective probabilities function as prices obeying coherency (i.e. the arbitrage free
