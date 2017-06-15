@@ -16,12 +16,18 @@ date: "`r format(Sys.time(), '%B %d, %Y')`"
 geometry: margin=1in
 fontfamily: mathpazo
 fontsize: 11pt
-# spacing: double
+spacing: double
 bibliography: ./master.bib
 biblio-style: apsr
 ---
 
 # Introduction
+
+> [T]he shipper who earns his living from using otherwise empty or half-filled journeys of tramp-steamers, or the estate
+> agent whose whole knowledge is almost exclusively one of temporary opportunities, or the *arbitrageur* who gains from
+> local differences of commodity prices, are all performing eminently useful functions based on special knowledge of
+> circumstances of the fleeting moment not known to others.
+	-- F.A. Hayek
 
 The pursuit of knowledge through academic scholarship rests on a commonly held moral foundation. The pursuit of truth, which is widely believed to be the goal of scholarship, is thought to be an inherently moral activity. At the same time, it is an increasingly widely held belief that financial market arbitrage, the kind pursued by Wall Street traders, is an inherently immoral activity. Take for example, the case of the quantitative proprietary trading firm which serves no clients and which invests only the capital of its principals. Such a firm makes its profits, often astonishingly large profits, by buying and selling financial securities and profiting from speculation. A common line of reasoning is that such a firm is predatory, parasitic, and even rapacious and as such cannot possibly be acting morally. 
 
@@ -60,6 +66,12 @@ When a trader makes a profit by simultaneously buying and selling financial secu
 My argument can now be stated simply as follows. One cannot simultaneously believe: (a) that the pursuit of academic or scientific knowledge is inherently moral, and (b) that the pursuit of capitalist profits through financial arbitrage is inherently immoral.
  
 There is thus a logical defeator for the belief that arbitrage is immoral. Financial arbitrage rests on the same moral foundation as scholarship - the pursuit of knowledge - albeit in a more plain and mundate way. 
+
+
+# Dutch Books
+
+
+# 
 
 
 <!--
