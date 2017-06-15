@@ -2,7 +2,9 @@
 title: "The Morality of Arbitrage - Some Half-Baked Ideas"
 author: "Tyler J. Brough"
 date: "September 23, 2016"
-output: ioslides_presentation
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
 ---
 
 # 

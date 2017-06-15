@@ -1,0 +1,271 @@
+---
+title: "The Morality of Arbitrage"
+author: "Tyler J. Brough, Ph.D."
+date: "April 11, 2017"
+output: slidy_presentation
+---
+
+# Introduction
+
+## 
+
+> *But nobody can be a great economist who is only an economist - and I am even tempted to add that the economist who is only an economist is likely to become a nuisance if not a positive danger*.
+
+-- Friedrich von Hayek
+
+<div class="notes">
+- Of course, all good ideas begin with Hayek!
+</div>
+
+
+## About Me
+
+- Financial Economist at Utah State University
+- My research focuses on market microstructure, derivatives markets, financial econometrics, and computational methods.
+- I'm on the [web](https://broughtj.github.io/)
+
+<br>
+
+<center>
+<img src="images/buddy.jpg" width=400 height=350 />
+</center>
+
+
+## What's Wrong with Capitalism?!
+
+>- It is apparent to me that the standard ethical arguments for capitalism are not having any purchase in the minds of most people.
+>- Capitalism is presented as some kind of Faustian bargain: we like it for its wealth production and efficiency, but at bottom it is really about greed. It is rapacious and immoral.
+>- It is readily apparent that many of our colleagues in the business disciplines believe this notion
+>- __I'm afraid that our students do too!__ They leave the business school with some good technical tools, but not with an appreciation of just how much good they will do in their careers. 
+>- That is on us! That's a failure on our part to teach correct principles. 
+
+
+## Some Recent Anecdotal Evidence
+
+>- The Rolling Stone writes about the [great vampire squid wrapped around the face of humanity](http://www.rollingstone.com/politics/news/the-great-american-bubble-machine-20100405)
+
+<center>
+<img src="images/squid.jpg" width=400 height=350 />
+</center>
+
+
+## Sadly, Yet More 
+
+>- "Derivatives are financial weapons of mass destruction" - Warren Buffett
+>- "Derivatives are toxic - stay away from them" - unnamed donor to the Huntsman School
+>- "In a world where profit is consistently put before both people and the planet, climate economics has everything to do with ethics and morality" - Naomi Klein
+>- CNN asks: [Is democratic socialism the right path for America?](http://www.cnn.com/2015/10/27/opinions/opinion-roundup-socialism/)
+
+
+## Introduction 
+
+The origins of this project have been slowly baking for some time now:
+
+- I have been very influenced by coase's 1974 AER article [*The Market for Goods and the Market for Ideas*](http://www.jstor.org/stable/1816070?seq=1#page_scan_tab_contents).
+
+- I can date my adult thinking about markets and the market process to my first reading of Hayek's 1945 AER article [*The Use of Knowledge in Society*](http://www.jstor.org/stable/1809376?seq=1#page_scan_tab_contents)
+
+
+## Coase's Dutch Book Argument
+
+Coase's paper is about what he calls the "economics of the First Ammendment"
+
+For those needing a refresher:
+
+> *"Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances"*
+
+The freedom of speech, a free press, religious liberty are so ingrained in our culture. Their morality is based on a generally held and accepted ethical foundation. 
+
+<div class="notes">
+
+If you don't know what a Dutch book is, hang on and I'll explain it.
+</div>
+
+
+## Coase's Dutch Book Continued
+
+The main idea that he examines:
+
+> *"What is the general view that I will be examining? It is that, in the market for goods, government regulation is desirable whereas, in the market for ideas, government regulation is undersirable and should be strictly limited."*
+
+The Dutch book is as follows:
+
+> *"The paradox is that government intervention which is so harmful in the one sphere becomes beneficial in the other."*
+
+and
+
+> *"... it is usually those who press most strongly for an extension of government regulation in other markets who are most anxious for a vigorous enforcement of the First Amendment prohibitions on government regulation in the market for ideas"*
+
+
+## Coase Continued
+
+Coase's take:
+
+> "*Because of the view that a free market in ideas is necessary to the maintenance of democratic institutions and , I believe, for other reasons also, intellectuals have shown a tendency to exalt the market for ideas and to depreciate the market for goods.* ***Such an attitude seems to me unjustified.***"
+
+> *"I would put the point more bluntly. The market for ideas is the market in which the intellectual conducts his trade. The explanation of the paradox is self-interest and self-esteem. Self-esteem leads the intellectuals to magnify the importance of their own market. That others should be regulated seems natural, particularly as many of the intellectuals see themselves as doing the regulating. But self-interest combines with self-esteem to ensure that, while others are regulated, regulation should not apply to them."*
+
+
+## Yet more Coase
+
+> *"It is hard to believe that the general public is in a better position to evaluate competing views on economic and social policy than to choose between different kinds of food."*
+
+> *"I do not believe that we will be able to form a judgement in which we can have any confidence unless we abandon the present ambivalence about the performance of government in the two markets and adopt a more consistent view."*
+
+>- One might say a more "***coherent***" view
+
+
+## Buchanan & Hayek Discussion
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/kzNpD9DXU2w" frameborder="0" allowfullscreen></iframe>
+
+<div class="notes">
+Go to 1:39 in the video.
+</div>
+
+## Nau's Arbitrage Choice Theory
+
+Some time ago I came across Robert Nau's work on [*Arbitrage Choice Theory*](https://faculty.fuqua.duke.edu/~rnau/bio/)
+
+
+<center>
+<img src="images/Nau.jpg" width=400 height=350 />
+</center>
+
+## Bruno de Finetti 
+
+To understand Nau, we need to first understand [Bruno de Finetti](https://en.wikipedia.org/wiki/Bruno_de_Finetti)
+
+
+<center>
+<img src="images/deFinetti.jpg" width=400 height=350 />
+</center>
+
+
+## de Finetti and Dutch Books
+
+de Finetti had a very operational view of subjective Bayesian probability. 
+
+Nau on de Finetti:
+
+> _"In de Finetti's theory, bets are for money, so your probability of an event is effectively the price that you are willing to pay for a lottery ticket that yields 1 unit of money if the event occurs and nothing otherwise."_
+
+>- My finance colleagues will understand de Finetti's lottery tickets as contingent claims.
+>- In fact, de Finetti already invented much of what we think of as modern finance. [But no one really knew about it!](https://www.openstarts.units.it/dspace/bitstream/10077/3969/1/Pressacco%20Ziani%20Atti%20Economia%20e%20Incertezza.pdf)
+
+
+## Dutch Book Arguments
+
+According to *The Cambridge Dictionary of Philosophy* a Dutch book argument is the following:
+
+> *The argument that a rational person's degrees of belief must conform to the axioms of the probability calculus, since otherwise, by the Dutch book theorem, he would be vulnerable to a Dutch book.*
+
+Okay, so what is the Dutch Book Theorem?
+
+> *The proposition that anyone who (a) counts a bet on a proposition p as fair if the odds correspond to his degree of belief that p is true and who (b) is willing to make any combination of bets he would regard individually as fair will be vulnerable to a Dutch book provided his degrees of belief do not conform to the axioms of the probability calculus. Thus, anyone of whom (a) and (b) are true and whose degree of belief in a disjunction of two incompatible propositions is not equal to the sum of his degrees of belief in the two propositions taken individually would be vulnerable to a Dutch book.*
+
+
+## xkcd On Dutch Books
+
+<center>
+<img src="images/xkcd.png" width=600 height=490 />
+</center>
+
+Here is the [link.](https://xkcd.com/1132/)
+
+
+## Back to Nau
+
+From Nau's excellent paper [__Arbitrage, Rationality, and Equilibirum__](http://link.springer.com/article/10.1007/BF00132993):
+
+> "*In this paper it will be argued that decision theory, game theory, and market theory can be placed on a more secure and parsimonious footing by appeal to the principle of* ***no arbitrage*** *rather than the usual ordering axioms of preferences. The arbitrage princile already has a long history: in the literature on Bayesian statistics and decision theory, it was introduced by de Finetti (1937) as a basis for defining subjective probability... In the finance literature, the arbitrage principle explicitly underlies the capital structure theorem (Modigliani & Miller 1958), the valuation of cash flows (Ross 1978), and the pricing of assets and options (Black and Scholes 1973, Merton 1973, Ross 1976). No-arbitrage is central to classical welfare economics, where it goes by the name of 'Pareto optimality.' *"
+
+
+
+## More Nau
+
+> "*It will be shown here that no-arbitrage is the core principle of rationality which remains after economic models are stripped of their excess baggage of intrinsically unverifiable or empirically disconfirmed assumptions about the perfectness of human cognition, particularly the assumption that belief and preference orderings are complete. The arbitrage principle still provides support for the most important concepts of equilibrium in games and markets, but with weaker information requirements. It is consistent with 'procedural' or 'cognitive' views of rationality (e.g., Simon 1976; Munier 1991) which emphasize that the information-processing capabilities of the individual are finite and tailored to the specific demands of her physical and cultural environment.*"
+
+And my favorite line:
+
+> "*Thus, Bayesians are made, not born.*"
+
+
+
+## Thoughts on Nau
+
+>- So the Dutch book, or equivalently the no-arbitrage principle, becomes a unifying theme. 
+>- We can now explicitly make Coase's argument as a Dutch book argument and point out the incoherence.
+
+<div class="notes">
+Some subtle points:
+
+- Nau points out that probabilities and utilities are inseparable, so we must interpret them as risk-neutral probabilities
+- We in finance are very comfortable with that!
+
+There is much deep material here. So much to be done in following up!
+</div>
+
+## From Nau back to Hayek
+
+The foundational paper in economics, is for me, Hayek's 1945 AER [The Use of Knowledge in Society](http://www.econlib.org/library/Essays/hykKnw1.html)
+
+>- Hayek points out that market processes are knowledge processes, and that markets are information systems to use a modern parlance. 
+>- It should seem very natural to economists to treat the market for ideas and the market for goods similarly. They are two different markets, but the same market process!
+>- Thus, the process of scholarship and science are very much like the market process for goods.
+
+
+Additionally
+
+>- A successful research project is an intellectual arbitrage.
+>- Students come into our class rooms every day with open Dutch books and pay us to exploit them!
+>- Every technological advance, life-improving result of human ingenuity is entrepreneurial arbitrage!
+
+
+## Thomas Sowell on Hayek
+
+<center>
+<img src="images/thomas-sowell.jpg" width=600 height=490 />
+</center>
+
+## Thomas Sowell Quotations
+
+> "*While market economies are often thought of as money economies, they are still more so knowledge economies... Economic transactions are purchases and sales of knowledge.*"
+
+> "*After all, the caveman had the same natural resources at their disposal as we have today... We are all in the business of buying and selling knowledge from one another, because we are each so profoundly ignorant of what it takes to complete the whole process of which we are a part.*"
+
+
+## The Morality of Scholarship and the Morality of Arbitrage
+
+>- The process of scholarship is generally accepted as an inherently moral pursuit!
+>- Scholarship, science, and journalism are about important ideas and beliefs.
+>- Economics and finance are about more mundane information processes, but certainly no less vital. Probably much more important to our daily lives!
+
+## Brough's Dutch Book Argument
+
+One cannot simultaneously believe that:
+
+  $(1)$ The pursuit of knowledge (_intellectual arbitrage_) is inherently moral
+
+and that
+
+  $(2)$ The pursuit of capitalist enterprise (_entrepreneurial arbitrage_) is inherently immoral
+
+without leaving oneself open to a massive Dutch book. They are just two different examples of the very same thing!
+
+
+## Conclusion
+
+>- Thank you for your attention!
+>- Your feedback is appreciated!
+
+
+
+
+
+
+
+
+
+
+
