@@ -7,21 +7,19 @@ output:
   ioslides_presentation: default
 ---
 
-# 
+## 
 
 > *But nobody can be a great economist who is only an economist - and I am even tempted to add that the economist who is only an economist is likely to become a nuisance if not a positive danger*.
 
--- Friedrich von Hayek
+> -- Friedrich von Hayek
 
 <br>
 <br>
 
-> *The task of the modern educator is not to cut down jungles but to irriage deserts. The right defense against false
-> sentiments is to inculcate just sentiments. By starving the sensibility of our pupils we only make them easier prey to
-> the propagandist when he comes. For famished nature will be avenged and a hard heart is no infallible protection
-> against a soft head.*
+> *The task of the modern educator is not to cut down jungles but to irriage deserts. The right defense against false sentiments is to inculcate just sentiments. By starving the sensibility of our pupils we only make them easier prey to the propagandist when he comes. For famished nature will be avenged and a hard heart is no infallible protection against a soft head.*
 
--- C.S. Lewis
+> -- C.S. Lewis
+
 
 <div class="notes">
 - Of course, all good ideas begin with Hayek!

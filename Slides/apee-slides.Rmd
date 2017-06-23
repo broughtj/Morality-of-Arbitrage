@@ -9,9 +9,14 @@ output: slidy_presentation
 
 ## 
 
-> *But nobody can be a great economist who is only an economist - and I am even tempted to add that the economist who is only an economist is likely to become a nuisance if not a positive danger*.
-
--- Friedrich von Hayek
+> But nobody can be a great economist who is only an economist - and I am even tempted to add that the economist who is only an economist is likely to become a nuisance if not a positive danger.
+>
+>>  -- Friedrich von Hayek
+  
+> The task of the modern educator is not to cut down jungles but to irrigate deserts. The right defense against false sentiments is to inculcate just sentiments. By starving the sensibility of our pupils we only make them easier prey to the propogandist when he comes. For famished nature will be avenged and a hard heart is no infallible protenction against a soft head.
+>
+>>  -- C.S. Lewis
+  
 
 <div class="notes">
 - Of course, all good ideas begin with Hayek!
@@ -75,6 +80,9 @@ For those needing a refresher:
 > *"Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances"*
 
 The freedom of speech, a free press, religious liberty are so ingrained in our culture. Their morality is based on a generally held and accepted ethical foundation. 
+
+<br>
+You might well ask why there is no ammendment that begins "congress shall make no law regarding the regulation of ..."
 
 <div class="notes">
 
@@ -251,7 +259,7 @@ and that
 
   $(2)$ The pursuit of capitalist enterprise (_entrepreneurial arbitrage_) is inherently immoral
 
-without leaving oneself open to a massive Dutch book. They are just two different examples of the very same thing!
+without leaving oneself open to a massive Dutch book. They are merely two different examples of the very same thing!
 
 
 ## Conclusion
