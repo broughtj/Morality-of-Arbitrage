@@ -38,7 +38,7 @@ output: slidy_presentation
 
 ## What's Wrong with Capitalism?!
 
->- It is apparent to me that the standard ethical arguments for capitalism are not having any purchase in the minds of most people.
+>- It is apparent to me that the standard ethical arguments for capitalism are not having much purchase in the minds of most people.
 >- Capitalism is presented as some kind of Faustian bargain: we like it for its wealth production and efficiency, but at bottom it is really about greed. It is rapacious and immoral.
 >- It is readily apparent that many of our colleagues in the business disciplines believe this notion
 >- __I'm afraid that our students do too!__ They leave the business school with some good technical tools, but not with an appreciation of just how much good they will do in their careers. 
@@ -177,7 +177,7 @@ Okay, so what is the Dutch Book Theorem?
 
 - Consider Agent A's degrees of belief regarding the flipping of a fair coin. 
 
-- The event space is $S = {H,T}$ ($H = \mbox{"heads"}$, and $T = \mbox{"tails"}$)
+- The event space is $S = \{H,T \}$ $\quad \quad$ ($H = \mbox{"heads"}$, and $T = \mbox{"tails"}$)
 
 - Suppose A's beliefs can be represented as $P(H) = 0.51$ and $P(T) = 0.51$
 
@@ -192,7 +192,7 @@ Okay, so what is the Dutch Book Theorem?
 ## xkcd On Dutch Books
 
 <center>
-<img src="images/xkcd.png" width=600 height=490 />
+<img src="images/xkcd.png" width=600 height=550 />
 </center>
 
 Here is the [link.](https://xkcd.com/1132/)
